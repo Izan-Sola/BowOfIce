@@ -1,0 +1,7 @@
+name: Ice_Bow
+version: 1.0
+main: me.ShinyShadow_.BowOfIce.IceBow
+api-version: 1.20
+commands:
+  givebowofice:
+     description: Gives a Bow of Ice
