@@ -79,7 +79,7 @@ public class IceSpikes {
 	           
 	                	Collection<Entity> nearbyEntities = player.getWorld().getNearbyEntities(iceSpike.getLocation(), 0.4, 2, 0.4);
 	                			for (Entity target : nearbyEntities) {
-	                			
+	                			//i should change this ngl but i did it the lazy way
 	                		        if (target instanceof LivingEntity && target.getUniqueId() != player.getUniqueId() && !target.isDead()) {	            
 	                						startIceTimer = true;
 	                						((LivingEntity) target).addPotionEffect(new PotionEffect(PotionEffectType.SLOW, 4, 40));
