@@ -123,11 +123,10 @@ public class IceSpikes {
                 		 player.getWorld().spawnParticle(Particle.BLOCK_CRACK, iceSpike.getLocation(), 80, 1, 1, 1, 2, Material.ICE.createBlockData());
                 		 player.getWorld().spawnParticle(Particle.SNOW_SHOVEL, iceSpike.getLocation(), 80, 1, 1, 1, 2);
              		    player.getWorld().spawnFallingBlock(spike1.getLocation(), Material.SNOW.createBlockData());
-             		    int Offset = ThreadLocalRandom.current().nextInt(1, 2);
-            		    player.getWorld().spawnFallingBlock(spike1.getLocation().add(Offset, 0, -Offset), Material.SNOW.createBlockData());
-            		    player.getWorld().spawnFallingBlock(spike1.getLocation().add(-Offset, 0, Offset), Material.SNOW.createBlockData());
-            		    player.getWorld().spawnFallingBlock(spike1.getLocation().add(-Offset, 0, -Offset), Material.SNOW.createBlockData());
-            		    player.getWorld().spawnFallingBlock(spike1.getLocation().add(Offset, 0, Offset), Material.SNOW.createBlockData());
+            		    player.getWorld().spawnFallingBlock(spike1.getLocation().add(1, 0, -1), Material.SNOW.createBlockData());
+            		    player.getWorld().spawnFallingBlock(spike1.getLocation().add(-1, 0, 1), Material.SNOW.createBlockData());
+            		    player.getWorld().spawnFallingBlock(spike1.getLocation().add(-1, 0, -1), Material.SNOW.createBlockData());
+            		    player.getWorld().spawnFallingBlock(spike1.getLocation().add(1, 0, 1), Material.SNOW.createBlockData());
             		    snow = false;
                 		 }
                 		 	iceSpike.remove();
