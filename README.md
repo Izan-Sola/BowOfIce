@@ -8,5 +8,4 @@ How to craft:
 - Powder Snow Bucket | Bow | Water Bucket
 - Packed Ice | Packed Ice | Packed Ice
 
-Showcase: 
-[https://youtu.be/_XQJQVujUcs?si=YtzFpldt_oe4Ck1S]
+Showcase: https://youtu.be/vBj_Q5WTmyQ?si=HlJp7AIYNDb-hgfi
